@@ -1,6 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
 import styles from "./page.module.css";
-
 const url = "https://api.thecatapi.com/v1/images/search?limit=50";
 const api_key = process.env.CAT_KEY || '';
 
